@@ -1,4 +1,4 @@
-<h1>Setting up a SEIM in Azure</h1>
+<h1>Setting up a SIEM in Azure</h1>
 
 <h2>Description</h2>
 In this project I designed, implemented, and managed a comprehensive Security Information and Event Management (SIEM) system from the ground up. I mainly used Microsoft Azure to do this. I created a Virtual Machine in the cloud which acted as my honeypot and made it super suseptible to the internet. After setting up Azure Sentinel, I began to log and monitor a number of attacks from different IP addresses from all over the world, these logs gave me attackers information which included not only their username and sourcehost, but also there longitude, latitude, and country. I then took that data and displayed it on a world map so I could see where all the attacks were coming from in real time.
