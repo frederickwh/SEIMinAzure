@@ -4,12 +4,20 @@
 In this project I designed, implemented, and managed a comprehensive Security Information and Event Management (SIEM) system from the ground up. I mainly used Microsoft Azure to do this. I created a Virtual Machine in the cloud which acted as my honeypot and made it super suseptible to the internet. After setting up Azure Sentinel, I began to log and monitor a number of attacks from different IP addresses from all over the world, these logs gave me attackers information which included not only their username and sourcehost, but also there longitude, latitude, and country. I then took that data and displayed it on a world map so I could see where all the attacks were coming from in real time.
 <br />
 
+<h2>Experience</h2>
+
+Performed the following tasks for Azure Sentinel (SIEM):
+- Used custom PowerShell script to extract metadata from Windows Event Viewer to be forwarded to third party API in order to derive geolocation data.
+- Configured Log Analytics Workspace in Azure to ingest custom logs containing geographic information. (latitude, longitude, country)
+- Configured Custom Fields in Log Analytics Workspace with the intent of mapping geo data in Azure Sentinel.
+- Configured Azure Sentinel (Microsoft's cloud SIEM) workbook to display global attack data (RDP brute force) on world map according to physical location and magnitude of attacks.
+
 <h2>Exposure:</h2>
 
-- <b>Azure Portal</b>
-- <b>Azure Sentinal</b>
-- <b>Kusto Query Language</b>
-- <b>Network Security Groups</b>
+- Azure Portal
+- Azure Sentinel
+- Kusto Query Language
+- Network Security Groups
 
 <h2>Program walk-through:</h2>
 
